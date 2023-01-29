@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tina</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/21b199e906.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/1bc19d5c71.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="http://logos.textgiraffe.com/logos/logo-name/Tina-designstyle-kiddo-m.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hello, I'm <span class="tina">Tina Dipani</span><br>from <span class="india">India</span></h1>
+            </div>
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am consulting data analyst and social researcher passionate about working with organisations
+                        that want to make effective use of their data; from the first ideas around what you want to
+                        measure and how to capture data accurately, through data preparation, analysis and management,
+                        all the way to impactful presentation of insights. I can support each step of the process to
+                        enable your organisation in making evidence-driven decisions or share insights with new
+                        audiences.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Power BI</span><br>Data Visualization</li>
+                            <li><span>Excel</span><br>Data analysis</li>
+                            <li><span>Business Intelligence</span><br>collects, stores, and analyzes the data produced
+                                by a company's activities</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br> Learning C/C++, Python <span
+                                    class="self">SelfLearning</span></li>
+                            <!-- <li><span>2021 - 2022</span><br></li>/ -->
+                            <!-- <li><span>2022 - Current</span><br>Building Android/ios Apps</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MBA</span><br>RCOEM, Nagpur</li>
+                            <li><span>BBA</span><br>City Premier College, Nagpur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <ion-icon name="bar-chart-outline"></ion-icon>
+                    <h2>Data Collection and cleaning</h2>
+                    <p> Data analysts are responsible for gathering and preparing data for analysis. This includes
+                        identifying relevant sources of data, collecting and importing data into a usable format, and
+                        cleaning and preprocessing the data to ensure it is accurate and consistent.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <ion-icon name="analytics-outline"></ion-icon>
+                    <h2>Data Analysis and modelling</h2>
+                    <p>Once data has been collected and cleaned, data analysts use statistical and computational methods
+                        to analyze the data and identify patterns and trends. This may include developing predictive
+                        models, conducting statistical tests, and creating visualizations to help communicate the
+                        results of the analysis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <ion-icon name="stats-chart-outline"></ion-icon>
+                    <h2>Data communication and reporting</h2>
+                    <p>Data analysts are responsible for communicating the results of their analysis to
+                        stakeholders.This includes creating reports,presentations,and visualizations that clearly and
+                        effectively communicate the key findings and insights from the data. Additionally, data analysts
+                        may be involved in creating dashboards and other interactive tools to help stakeholders explore
+                        and understand the data.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------portfolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>tinadipani@gmail.com</p>
+                    <!-- <p><i class="fa-solid fa-phone"></i>0123456789</p> -->
+                    <div class="social-icons">
+                        <a href="`"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="`"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="`"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="`"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Tina. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSmdHQqiXcoIGyzvyMDBn1qzSXlxsOaiF5LMUAwMc5HuSd-BvJU-mZ96pPWXpcJaxm/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
