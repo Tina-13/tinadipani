@@ -57,6 +57,28 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
+.home:hover {
+    color: lightblue;
+
+}
+
+.about:hover {
+    color: lightslategray;
+}
+
+.service:hover {
+    color: lightskyblue;
+}
+
+.portfolio:hover {
+    color: lightpink;
+}
+
+.contact:hover {
+    color: lightcoral;
+}
+
 .header-text{
     margin-top: 20%;
     font-size: 30px;
