@@ -290,6 +290,22 @@ nav ul li a:hover::after{
     color: #41dfff;
     transform: translate(-5px);
 }
+
+
+.social-icons .facebook:hover {
+    color: #1877f2;
+    transform: translate(-5px);
+}
+
+.social-icons .instagram:hover{
+    color: #E4405F;
+    transform: translate(-5px);
+}
+
+.social-icons .linkedin:hover{
+    color: #0A66C2;
+    transform: translate(-5px);
+}
 .btn.btn2{
     display: inline-block;
     background: black;
